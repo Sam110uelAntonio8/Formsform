@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormularioX</title>
+</head>
+<body>
+    <h1>Encuesta de satifacción</h1>
+    <br> <br>
+    <form action="#" method="post">
+    <label for="nombre">Nombre completo</label>
+    <input type="text" id="nombre" required>
+    <br> <br>
+    <label for="psw">Contraseña</label>
+    <input type="password" id="psw" required>
+    <br> <br>
+    <label for="edad">Edad</label>
+    <input type="number" id="edad" required>
+    <br> <br>
+    <label for="pais">'País</label>
+    <select name="pais" id="pais">
+    <option value="exelente">Exelente</option>
+    <option value="gratificante">Gratificante</option>
+    <option value="regular">Regular</option>
+    <option value="mediocre">Mediocre</option>
+    </select>
+    <br> <br>
+    <label for="¿con que frecuencio utilisas nuestros servicios?">¿Con que frecuencio utilisas nuestros servicios?</label>
+    <br>
+    <input type="radio" id="diario" name="frecuencia de uso" value="diario">
+    <label for="diario">Diario</label>
+    <input type="radio" id="semanal" name="frecuencia de uso" value="semanal">
+    <label for="semanal">Semanal</label>
+    <input type="radio" id="mensual" name="frecuencia de uso" value="mensual">
+    <label for="mensual">Mensual</label>
+    <br> <br>
+    <label for="¿que servicio as utilizado?">¿Que servicio as utilizado?</label>
+    <br>
+    <input type="radio" id="soporte técnico" name="servicio usado" value="soporte técnico">
+    <label for="soporte técnico">Soporte técnico</label>
+    <input type="radio" id="consultoría" name="servicio usado" value="consultoría">
+    <label for="consultoría">Consultoría</label>
+    <input type="radio" id="capacitación" name="servicio usado" value="capacitación">
+    <label for="capacitación">Capacitación</label>
+    <br> <br>
+    <label for="comentarios">Sugerencia para mejorar nuenstro servicio</label>
+    <br>
+    <textarea name="comentarios" id="comentarios" cols="30" rows="4"></textarea>
+    <br> <br>
+    <input type="submit" value="Enviar">
+    
+    </form>
+</body>
+</html>
